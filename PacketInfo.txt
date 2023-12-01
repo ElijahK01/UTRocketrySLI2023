@@ -1,0 +1,16 @@
+Packet Info:
+Header and ID
+Alt : Temp : Force Transducer
+X_Orientation : Y_Orientation : Z_Orientation : 
+X_Accel : Y_Accel : Z_Accel : 
+X_Vel : Y_Vel : Z_Vel : 
+Timestamp/Uptime : Time Since Launch : 
+State (on pad, launched, apogee, ascending, descending, chute deployed, second chute deployed, landed)
+
+Header & ID: Long (8 bytes)
+Data elements: Double (8 Bytes each ( x 10 = 80 Bytes))
+Timestamp: long (8 Bytes)
+Time since launched: long (8 bytes)
+state: 1 byte (1 bit/state x 8 states)
+
+Total data structure length: 105 Bytes
